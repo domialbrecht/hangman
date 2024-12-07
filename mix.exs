@@ -16,6 +16,9 @@ defmodule HangmanUmbrella.MixProject do
   #
   # Run "mix help deps" for examples and options.
   defp deps do
-    []
+    [
+      {:dialyxir, "~> 1.4", only: [:dev], runtime: false}
+      # {:dep_from_hexpm, "~> 0.3.0"},
+    ]
   end
 end
